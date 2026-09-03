@@ -1,0 +1,19 @@
+{
+  "name": "wtrun",
+  "version": "0.1.0",
+  "description": "git worktree isolation for agent tasks — a thin, stateless git worktree wrapper",
+  "bin": {
+    "wtrun": "wtrun.js"
+  },
+  "scripts": {
+    "smoke": "bash test/smoke.sh"
+  },
+  "files": [
+    "wtrun.js",
+    "README.md"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
